@@ -1,5 +1,7 @@
 package com.sid.ipldashboard.dto;
 
+import javax.persistence.Id;
+
 public class MatchData {
    private String id;
    private String city;
