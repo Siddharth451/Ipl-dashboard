@@ -17,8 +17,8 @@ public class Match {
     private String team2;
     private String tossWinner;
     private String tossDecision;
-    private String winner;
     private String result;
+    private String matchWinner;
     private String resultMargin;
     private String umpire1;
     private String umpire2;
@@ -76,11 +76,11 @@ public class Match {
     public void setTossDecision(String tossDecision) {
         this.tossDecision = tossDecision;
     }
-    public String getWinner() {
-        return winner;
+    public String getMatchWinner() {
+        return matchWinner;
     }
-    public void setWinner(String winner) {
-        this.winner = winner;
+    public void setMatchWinner(String matchWinner) {
+        this.matchWinner = matchWinner;
     }
     public String getResult() {
         return result;
